@@ -12,9 +12,8 @@ function TodoForm() {
 
     if (!todo) return;
 
-    // addTodo({id: Date.now(), todo: todo, completed: false})
-    // since Date.now is Already there in function & (todo:todo is Same as todo) in New Syntax Format of Add todo
-    addTodo({ todo: todo, completed: false });
+    // Change the property name to todoDesc
+    addTodo({ todoDesc: todo, completed: false });
     setTodo("");
   };
 
