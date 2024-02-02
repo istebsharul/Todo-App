@@ -63,8 +63,7 @@ Before you begin, ensure you have the following installed:
 
    ```bash
    ./mvnw spring-boot:run
-
-   Or
+   
   -If you are using VsCode just go to main file, from the dropdown runner press RUN JAVA
   
   -Open your browser and go to http://localhost:8080 to view the server.
